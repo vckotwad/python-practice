@@ -1,0 +1,5 @@
+s=input('enter any string').strip()
+s2=s[1:-1].lower()
+s1=s[0].upper()
+s3=s[-1].upper()
+print(s1+s2+s3)
